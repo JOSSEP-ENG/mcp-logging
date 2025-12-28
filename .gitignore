@@ -1,0 +1,50 @@
+# Backend (Spring Boot + Gradle)
+backend/.gradle/
+backend/build/
+backend/out/
+backend/bin/
+backend/data/
+backend/*.log
+backend/.DS_Store
+
+# Frontend (React + Vite)
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+/tmp/
+
+# Test coverage
+coverage/
+*.coveragerc
+
+# Environment variables (keep templates, ignore actual secrets)
+*.env
+!*.env.example

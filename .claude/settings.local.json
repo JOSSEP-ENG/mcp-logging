@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./gradlew build:*)",
+      "Bash(./gradlew bootRun)",
+      "Bash(npm run dev:*)",
+      "WebSearch",
+      "Bash(taskkill:*)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(cmd.exe /c \"taskkill /F /PID 17036\")",
+      "Bash(powershell -Command \"Stop-Process -Id 17036 -Force; Stop-Process -Id 14676 -Force\")",
+      "Bash(taskkill.exe:*)",
+      "Bash(if exist data rmdir /S /Q data)",
+      "Bash(curl:*)",
+      "Bash(./gradlew clean build:*)",
+      "Bash(./gradlew clean:*)",
+      "Bash(tasklist:*)",
+      "Bash(cmd.exe /c \"taskkill /F /PID 10360\")",
+      "Bash(./gradlew --stop)",
+      "Bash(python -m json.tool:*)",
+      "Bash(dir:*)",
+      "Bash(cmd.exe /c \"taskkill /F /PID 12448\")",
+      "Bash(timeout /t 10 /nobreak)",
+      "Bash(cmd.exe /c \"taskkill /F /T /PID 12448\")",
+      "Bash(powershell -Command \"Stop-Process -Id 12448 -Force\")",
+      "Bash(cmd.exe /c \"taskkill /F /IM java.exe\")",
+      "Bash(cmd.exe /c \"if exist backend\\\\data rmdir /S /Q backend\\\\data\")",
+      "Bash(cmd.exe /c \"taskkill /F /PID 20000\")"
+    ]
+  }
+}
